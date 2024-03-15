@@ -1,0 +1,52 @@
+name       : klassy
+version    : 6.0.2
+release    : 1
+source     :
+    - https://github.com/paulmcauley/klassy/archive/refs/tags/6.0.breeze6.0.2.tar.gz : 3be2d64b83e1c7404fbaadad4f8d481c5819517a192baa8ac7a824aa9d505949
+homepage   : https://github.com/paulmcauley/klassy
+license    :
+    - BSD-3-Clause
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - MIT
+component  : desktop.theme
+summary    : Fork of the Breeze style
+description: Fork of the Breeze style
+builddeps  :
+    - pkgconfig(Qt5Quick)
+    - pkgconfig(Qt5X11Extras)
+    - pkgconfig(Qt6Qml)
+    - pkgconfig(Qt6Svg)
+    - frameworkintegration-devel
+    - kconfigwidgets-devel
+    - kdecoration-devel
+    - kf6-frameworkintegration-devel
+    - kf6-kcmutils-devel
+    - kf6-kguiaddons-devel
+    - kf6-ki18n-devel
+    - kf6-kirigami-devel
+    - kf6-kwindowsystem-devel
+    - kguiaddons-devel
+    - ki18n-devel
+    - kiconthemes-devel
+    - kirigami2-devel
+    - kwindowsystem-devel
+clang      : yes
+optimize   :
+    - speed
+    - thin-lto
+setup      : |
+    %patch -p1 -i $pkgfiles/0001-Fix-clang-compilation-issues.patch
+
+    %cmake_kf6 -B qt5-build -DBUILD_QT5=ON -DBUILD_QT6=OFF
+
+    %cmake_kf6 -B qt6-build -DBUILD_QT5=OFF -DBUILD_QT6=ON
+build      : |
+    %ninja_build -C qt5-build
+
+    %ninja_build -C qt6-build
+install    : |
+    %ninja_install -C qt5-build
+    rm -rfv $installdir/usr/share/{color-schemes,kstyle}
+
+    %ninja_install -C qt6-build

@@ -1,0 +1,55 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Reilly Brogan <reilly@reillybrogan.com>
+Date: Fri, 15 Mar 2024 12:39:30 -0500
+Subject: [PATCH] Fix clang compilation issues
+
+Compiling with Clang v16.0.6 results in the following error message:
+```
+klassy/libbreezecommon/renderdecorationbuttonicon18by18.cpp:353:31: error: alias template 'QVector' requires template arguments; argument deduction only allowed for class templates
+        middlePath.addPolygon(QVector{leftMiddle, QPointF(leftMiddle.x() + width, leftMiddle.y())});
+                              ^
+/usr/include/qt6/QtCore/qcontainerfwd.h:33:22: note: template is declared here
+template<typename T> using QVector = QList<T>;
+```
+---
+ libbreezecommon/renderdecorationbuttonicon18by18.cpp | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/libbreezecommon/renderdecorationbuttonicon18by18.cpp b/libbreezecommon/renderdecorationbuttonicon18by18.cpp
+index cb527938..502cbe1e 100644
+--- a/libbreezecommon/renderdecorationbuttonicon18by18.cpp
++++ b/libbreezecommon/renderdecorationbuttonicon18by18.cpp
+@@ -347,13 +347,13 @@ void RenderDecorationButtonIcon18By18::renderApplicationMenuIcon()
+         qreal width = rightTop.x() - leftTop.x();
+ 
+         QPainterPath topPath;
+-        topPath.addPolygon(QVector{leftTop, rightTop});
++        topPath.addPolygon(QVector<QPointF>{leftTop, rightTop});
+         top->setPath(topPath);
+         QPainterPath middlePath;
+-        middlePath.addPolygon(QVector{leftMiddle, QPointF(leftMiddle.x() + width, leftMiddle.y())});
++        middlePath.addPolygon(QVector<QPointF>{leftMiddle, QPointF(leftMiddle.x() + width, leftMiddle.y())});
+         middle->setPath(middlePath);
+         QPainterPath bottomPath;
+-        bottomPath.addPolygon(QVector{leftBottom, QPointF(leftBottom.x() + width, leftBottom.y())});
++        bottomPath.addPolygon(QVector<QPointF>{leftBottom, QPointF(leftBottom.x() + width, leftBottom.y())});
+         bottom->setPath(bottomPath);
+     } else {
+         QPointF leftTop = snapToNearestPixel(QPointF(3.5, 4.5), SnapPixel::ToWhole, SnapPixel::ToWhole);
+@@ -368,13 +368,13 @@ void RenderDecorationButtonIcon18By18::renderApplicationMenuIcon()
+         qreal width = rightTop.x() - leftTop.x();
+ 
+         QPainterPath topPath;
+-        topPath.addPolygon(QVector{leftTop, rightTop});
++        topPath.addPolygon(QVector<QPointF>{leftTop, rightTop});
+         top->setPath(topPath);
+         QPainterPath middlePath;
+-        middlePath.addPolygon(QVector{leftMiddle, QPointF(leftMiddle.x() + width, leftMiddle.y())});
++        middlePath.addPolygon(QVector<QPointF>{leftMiddle, QPointF(leftMiddle.x() + width, leftMiddle.y())});
+         middle->setPath(middlePath);
+         QPainterPath bottomPath;
+-        bottomPath.addPolygon(QVector{leftBottom, QPointF(leftBottom.x() + width, leftBottom.y())});
++        bottomPath.addPolygon(QVector<QPointF>{leftBottom, QPointF(leftBottom.x() + width, leftBottom.y())});
+         bottom->setPath(bottomPath);
+     }
+ 
