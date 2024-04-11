@@ -228,7 +228,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/git/resources/icons/light/status-untracked.svg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js.LICENSE.txt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/images/icon.png</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/media/auth.css</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/github-authentication/media/favicon.ico</Path>
@@ -545,6 +544,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.decorators.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.decorators.legacy.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.asynciterable.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts</Path>
@@ -560,6 +560,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.full.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.intl.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.date.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.full.d.ts</Path>
@@ -613,12 +614,16 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es6.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.disposable.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.full.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.object.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.iterable.d.ts</Path>
@@ -819,7 +824,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-basics/syntaxes/jsdoc.ts.injection.tmLanguage.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js.LICENSE.txt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/media/icon.png</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/package.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/typescript-language-features/package.nls.json</Path>
@@ -939,6 +943,8 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStarted.mp3</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.nls.js</Path>
@@ -1030,8 +1036,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-03-15</Date>
-            <Version>1.87.2</Version>
+            <Date>2024-04-11</Date>
+            <Version>1.88.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
