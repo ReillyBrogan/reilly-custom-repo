@@ -1,0 +1,21 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Reilly Brogan <reilly@reillybrogan.com>
+Date: Tue, 16 Apr 2024 11:25:30 -0500
+Subject: [PATCH] Fix Wayland appId
+
+---
+ src/gui.rs | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/gui.rs b/src/gui.rs
+index 2fc44a5..39f5f16 100644
+--- a/src/gui.rs
++++ b/src/gui.rs
+@@ -30,6 +30,7 @@ pub fn run(flags: Flags) {
+     settings.window.min_size = Some((800, 600));
+     settings.exit_on_close_request = false;
+     settings.default_font = font::TEXT;
++    settings.window.platform_specific.application_id = "ludusavi".to_string();
+     settings.window.icon = match image::load_from_memory(include_bytes!("../assets/icon.png")) {
+         Ok(buffer) => {
+             let buffer = buffer.to_rgba8();

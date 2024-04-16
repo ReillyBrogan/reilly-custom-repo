@@ -1,0 +1,27 @@
+name       : ludusavi
+version    : 0.22.0
+release    : 1
+source     :
+    - https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.22.0.tar.gz : 6b7fe4010460653a8e47da45cbe8d531db857d17f87191801e259e4e4b8fc0eb
+homepage   : https://github.com/mtkennerly/ludusavi
+license    : MIT
+component  : system.utils
+summary    : Backup tool for PC game saves
+description: |
+    Backup tool for PC game saves
+networking : yes
+builddeps  :
+    - cargo
+setup      : |
+    %patch -p1 -i $pkgfiles/0001-Fix-Wayland-appId.patch
+
+    cargo fetch --locked
+build      : |
+    cargo build --frozen --release \
+                --all-features
+install    : |
+    install -Dm00755 target/release/ludusavi -t $installdir/usr/bin/
+    install -Dm644 assets/com.github.mtkennerly.ludusavi.metainfo.xml -t $installdir/usr/share/metainfo/
+    install -Dm644 assets/icon.png $installdir/usr/share/icons/hicolor/64x64/apps/ludusavi.png
+    install -Dm644 assets/icon.svg $installdir/usr/share/icons/hicolor/scalable/apps/ludusavi.svg
+    install -Dm644 assets/ludusavi.desktop -t $installdir/usr/share/applications/
