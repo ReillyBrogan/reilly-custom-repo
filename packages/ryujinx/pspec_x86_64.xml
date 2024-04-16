@@ -41,8 +41,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-03-25</Date>
-            <Version>1.1.1238</Version>
+            <Date>2024-04-16</Date>
+            <Version>1.1.1281</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>

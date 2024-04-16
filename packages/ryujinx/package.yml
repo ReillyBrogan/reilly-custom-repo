@@ -1,8 +1,8 @@
 name       : ryujinx
-version    : 1.1.1238
+version    : 1.1.1281
 release    : 1
 source     :
-    - https://github.com/Ryujinx/Ryujinx/archive/refs/tags/1.1.1238.tar.gz : 49bf6559f7cd2f101cfd413d351e707ea92b49d733658a4eec68dd688abccd85
+    - https://github.com/Ryujinx/Ryujinx/archive/refs/tags/1.1.1281.tar.gz : f2b43228d2d59df523c29760aba42e9b6553be477e27899b0eb85b0cd6b8173a
 license    : MIT
 component  : games.emulator
 homepage   : https://github.com/Ryujinx/Ryujinx
@@ -20,6 +20,7 @@ builddeps  :
     - pulseaudio
     - jack-audio-connection-kit
 setup      : |
+    %patch -p1 -i $pkgfiles/0001-Revert-nuget-bump-Microsoft.CodeAnalysis.CSharp-from.patch
     dotnet nuget locals all -c
 build      : |
     # Avalonia build has HiDPI issues
