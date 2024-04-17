@@ -1,0 +1,31 @@
+name       : vesktop
+version    : 1.5.1
+release    : 1
+source     :
+    - https://github.com/Vencord/Vesktop/releases/download/v1.5.1/vesktop-1.5.1.tar.gz : cb8c83c45443c559eaecec1d7c6ae2db9c001d7ce307122bd3ffc11924d4859a
+license    : Distributable
+component  : network.im
+homepage   : https://github.com/Vencord/Vesktop
+summary    : All-in-one voice and text chat for gamers
+description: |
+    All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gbm)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(xshmfence)
+rundeps    :
+    - llvm
+    - libayatana-appindicator
+    - opus
+# strip and debug will prevent krisp noise supression from loading
+strip      : no
+debug      : no
+install    : |
+    install -Dm00644 $pkgfiles/vesktop.desktop $installdir/usr/share/applications/vesktop.desktop
+    install -Dm00644 $pkgfiles/vesktop.png $installdir/usr/share/icons/hicolor/512x512/apps/vesktop.png
+
+    # Binary
+    install -dm00755 $installdir/usr/share/vesktop
+    cp -Ra * $installdir/usr/share/vesktop/
+    install -Dm00755 $pkgfiles/vesktop.sh $installdir/usr/bin/vesktop
