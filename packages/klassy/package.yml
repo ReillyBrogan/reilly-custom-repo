@@ -1,8 +1,8 @@
 name       : klassy
-version    : 6.0.2
+version    : 6.1
 release    : 1
 source     :
-    - https://github.com/paulmcauley/klassy/archive/refs/tags/6.0.breeze6.0.2.tar.gz : 3be2d64b83e1c7404fbaadad4f8d481c5819517a192baa8ac7a824aa9d505949
+    - https://github.com/paulmcauley/klassy/archive/refs/tags/6.1.breeze6.0.3.tar.gz : 6fc9f532116cb448857fb72898df8aafd40c507536ab1828f8242bc3504f68e8
 homepage   : https://github.com/paulmcauley/klassy
 license    :
     - BSD-3-Clause
@@ -36,8 +36,6 @@ optimize   :
     - speed
     - thin-lto
 setup      : |
-    %patch -p1 -i $pkgfiles/0001-Fix-clang-compilation-issues.patch
-
     %cmake_kf6 -B qt5-build -DBUILD_QT5=ON -DBUILD_QT6=OFF
 
     %cmake_kf6 -B qt6-build -DBUILD_QT5=OFF -DBUILD_QT6=ON
