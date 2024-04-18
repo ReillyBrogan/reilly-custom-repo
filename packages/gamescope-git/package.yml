@@ -2,7 +2,7 @@ name       : gamescope-git
 version    : 3.14.3
 release    : 1
 source     :
-    - git|https://github.com/ValveSoftware/gamescope.git : b16cf1bc524e884d0841dc2d59f9e9513ea6a0ce
+    - git|https://github.com/ValveSoftware/gamescope.git : f8c873e35278e68b16080c6ab060be6f5fbd91a7
 license    : BSD-2-Clause
 component  : system.utils
 homepage   : https://github.com/ValveSoftware/gamescope
