@@ -1,8 +1,8 @@
 name       : gamescope-git
-version    : 3.14.3
+version    : 3.14.5
 release    : 1
 source     :
-    - git|https://github.com/ValveSoftware/gamescope.git : f8c873e35278e68b16080c6ab060be6f5fbd91a7
+    - git|https://github.com/ValveSoftware/gamescope.git : e9acf4d5d7c207ae56cbb522210d26e9793bdd6f
 license    : BSD-2-Clause
 component  : system.utils
 homepage   : https://github.com/ValveSoftware/gamescope
@@ -19,6 +19,7 @@ builddeps  :
     - pkgconfig(libdecor-0)
     - pkgconfig(libdisplay-info)
     - pkgconfig(libdrm)
+    - pkgconfig(libeis-1.0)
     - pkgconfig(libliftoff)
     - pkgconfig(libpipewire-0.3)
     - pkgconfig(openvr)
