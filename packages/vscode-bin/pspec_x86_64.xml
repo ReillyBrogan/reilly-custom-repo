@@ -521,10 +521,11 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/84b6bc62673660f3ffa2.module.wasm</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/9.extension.web.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/94625be35e004f01f9d5.module.wasm</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/a443ca1a33b96237dd48.module.wasm</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/dbd61d846b1102299709.module.wasm</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js</Path>
@@ -926,7 +927,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/loader.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponsePending.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived1.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived2.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived3.mp3</Path>
@@ -938,6 +938,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/save.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3</Path>
@@ -1036,8 +1037,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-04-11</Date>
-            <Version>1.88.0</Version>
+            <Date>2024-05-02</Date>
+            <Version>1.89.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
