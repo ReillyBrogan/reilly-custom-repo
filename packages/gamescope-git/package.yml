@@ -1,8 +1,8 @@
 name       : gamescope-git
-version    : 3.14.11
+version    : 3.14.14
 release    : 1
 source     :
-    - git|https://github.com/ValveSoftware/gamescope.git : c7ef7c42997c4da51bd8b336b0021062fe5d534c
+    - git|https://github.com/ValveSoftware/gamescope.git : 7439e35258fd47d079bebcdb09454e3b667c2a7b
 license    : BSD-2-Clause
 component  : system.utils
 homepage   : https://github.com/ValveSoftware/gamescope
@@ -54,6 +54,9 @@ install    : |
     %ninja_install
 
     # Unneeded. This were only for libs that were statically compiled in
+    rm -v $installdir/usr/include/libliftoff.h \
+          $installdir/usr/lib64/libliftoff.a \
+          $installdir/usr/lib64/pkgconfig/libliftoff.pc
     rm -v $installdir/usr/include/vkroots.h \
           $installdir/usr/lib64/pkgconfig/vkroots.pc
     rm -rfv $installdir/usr/include/wlr \
