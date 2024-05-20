@@ -6,7 +6,7 @@
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
         </Packager>
-        <License>CDDL</License>
+        <License>CDDL-1.0</License>
         <PartOf>kernel.drivers</PartOf>
         <Summary xml:lang="en">Linux kernel driver for the ZFS file system</Summary>
         <Description xml:lang="en">Linux kernel driver for the ZFS file system
