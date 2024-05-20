@@ -5,7 +5,7 @@ Subject: [PATCH] Stateless
 
 Signed-off-by: Reilly Brogan <reilly@reillybrogan.com>
 ---
- cmd/zed/zed.d/Makefile.am                      | 10 +---------
+ cmd/zed/zed.d/Makefile.am                      | 12 ++----------
  cmd/zed/zed.h                                  |  2 +-
  cmd/zpool/Makefile.am                          |  8 +-------
  cmd/zpool/zpool_iter.c                         |  6 +++---
@@ -21,19 +21,25 @@ Signed-off-by: Reilly Brogan <reilly@reillybrogan.com>
  etc/systemd/system/zfs-trim@.service.in        |  1 +
  etc/systemd/system/zfs-volume-wait.service.in  |  1 +
  etc/systemd/system/zfs-zed.service.in          |  1 +
- 16 files changed, 20 insertions(+), 34 deletions(-)
+ 16 files changed, 21 insertions(+), 35 deletions(-)
  rename etc/default/{zfs.in => environment.in} (100%)
 
 diff --git a/cmd/zed/zed.d/Makefile.am b/cmd/zed/zed.d/Makefile.am
-index 812558cf6..be32111d2 100644
+index 812558cf6..3c8dca501 100644
 --- a/cmd/zed/zed.d/Makefile.am
 +++ b/cmd/zed/zed.d/Makefile.am
-@@ -1,4 +1,4 @@
+@@ -1,9 +1,9 @@
 -zedconfdir = $(sysconfdir)/zfs/zed.d
 +zedconfdir = $(datadir)/defaults/zfs/zed.d
  dist_zedconf_DATA = \
  	%D%/zed-functions.sh \
  	%D%/zed.rc
+ 
+-zedexecdir = $(zfsexecdir)/zed.d
++zedexecdir = $(zedconfdir)
+ 
+ dist_zedexec_SCRIPTS = \
+ 	%D%/all-debug.sh \
 @@ -42,14 +42,6 @@ zedconfdefaults = \
  
  dist_noinst_DATA += %D%/README
