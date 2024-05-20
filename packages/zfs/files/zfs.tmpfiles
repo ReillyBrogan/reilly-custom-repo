@@ -1,0 +1,2 @@
+# Make sure that the /etc/zfs directory exists so that ZFS can write to it
+d /etc/zfs 0755 root root

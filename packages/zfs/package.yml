@@ -1,0 +1,127 @@
+name       : zfs
+version    : '2.2.4'
+release    : 1
+source     :
+    - https://github.com/openzfs/zfs/releases/download/zfs-2.2.4/zfs-2.2.4.tar.gz : 9790905f7683d41759418e1ef3432828c31116654ff040e91356ff1c21c31ec0
+homepage   : https://openzfs.org/
+license    : CDDL
+component  :
+    - kernel.drivers
+    - current : kernel.drivers
+    - common : system.utils
+    - ^python-pyzfs : programming.python
+summary    :
+    - Linux kernel driver for the ZFS file system
+    - current : zfs for the linux-current kernel
+    - common : Common component for zfs
+description: |
+    Linux kernel driver for the ZFS file system
+builddeps  :
+    - pkgconfig(libcurl)
+    - pkgconfig(libtirpc)
+    - pkgconfig(python3)
+    - libaio-devel
+    - linux-current
+    - linux-current-headers
+    - linux-lts
+    - linux-lts-headers
+patterns   :
+    - common :
+        - /usr/bin
+        - /usr/lib
+        - /usr/lib64/lib*.so.*
+        - /usr/lib64/security
+        - /usr/lib64/zfs
+        - /usr/sbin
+        - /usr/share
+    - main : /lib/modules/*.lts
+    - current : /lib/modules/*.current
+    - ^python-pyzfs : /usr/lib/python3*
+permanent  :
+    - /lib/modules
+rundeps    :
+    - current :
+        - zfs-common
+    - ^python-pyzfs :
+        - zfs-common
+    - zfs-common
+setup      : |
+    %patch -p1 -i $pkgfiles/0001-Stateless.patch
+
+    pushd ..
+    cp -a zfs-$version current-build
+    cp -a zfs-$version lts-build
+    popd
+
+    # Common utilities and all integration
+    %reconfigure \
+               --disable-static \
+               --disable-sysvinit \
+               --enable-systemd \
+               --with-config=user \
+               --with-mounthelperdir=/usr/sbin \
+               --with-pamconfigsdir=/usr/share/defaults/etc/pam.d \
+               --with-udevdir=/usr/lib/udev \
+               --with-udevruledir=/usr/lib/udev/rules.d \
+               --with-vendor=solus
+
+    # Kernel modules for current
+    pushd ../current-build
+    %configure \
+               --with-config=kernel \
+               --with-linux=/lib/modules/%kernel_version_current%/build \
+               --with-linux-obj=/lib/modules/%kernel_version_current%/build
+    popd
+
+    # Kernel modules for lts
+    pushd ../lts-build
+    %configure \
+               --with-config=kernel \
+               --with-linux=/lib/modules/%kernel_version_lts%/build \
+               --with-linux-obj=/lib/modules/%kernel_version_lts%/build
+    popd
+build      : |
+    %make
+
+    pushd ../current-build
+    %make
+    popd
+
+    pushd ../lts-build
+    %make
+    popd
+install    : |
+    %make_install
+
+    pushd ../current-build
+    %make_install
+    popd
+
+    pushd ../lts-build
+    %make_install
+    popd
+
+    # Systemd pre-enablement
+    install -dm00755 $installdir/usr/lib/systemd/system/zfs-import.target.wants
+    ln -sv ../zfs-import-cache.service $installdir/usr/lib/systemd/system/zfs-import.target.wants/zfs-import-cache.service
+    install -dm00755 $installdir/usr/lib/systemd/system/zfs.target.wants
+    ln -sv ../zfs-import.target $installdir/usr/lib/systemd/system/zfs.target.wants/zfs-import.target
+    ln -sv ../zfs-mount.service $installdir/usr/lib/systemd/system/zfs.target.wants/zfs-mount.service
+    ln -sv ../zfs-share.service $installdir/usr/lib/systemd/system/zfs.target.wants/zfs-share.service
+    ln -sv ../zfs-zed.service $installdir/usr/lib/systemd/system/zfs.target.wants/zfs-zed.service
+    ln -sv zfs-zed.service $installdir/usr/lib/systemd/system/zed.service
+    install -dm00755 $installdir/usr/lib/systemd/system/zfs-volumes.target.wants
+    ln -sv ../zfs-volume-wait.service $installdir/usr/lib/systemd/system/zfs-volumes.target.wants/zfs-volume-wait.service
+    install -dm00755 $installdir/usr/lib/systemd/system/multi-user.target.wants
+    ln -sv ../zfs.target $installdir/usr/lib/systemd/system/multi-user.target.wants/zfs.target
+
+    # Create required directories
+    install -Dm00644 $pkgfiles/zfs.tmpfiles $installdir/usr/lib/tmpfiles.d/zfs.conf
+
+    # Don't need the kernel source since we don't support dkms
+    rm -rfv $installdir/usr/src
+
+    # Don't need the dracut helpers
+    rm -rfv $installdir/usr/lib/dracut
+
+    find "$installdir" -name '*.ko' -exec strip --strip-debug {} \; -exec zstd {} \; -exec rm -v {} \;

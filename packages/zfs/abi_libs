@@ -1,0 +1,9 @@
+libnvpair.so.3
+libuutil.so.3
+libzfs.so.4
+libzfs_core.so.3
+libzfsbootenv.so.1
+libzpool.so.5
+pam_zfs_key.so
+zpool
+zstream
