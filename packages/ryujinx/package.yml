@@ -1,8 +1,8 @@
 name       : ryujinx
-version    : 1.1.1281
+version    : 1.1.1340
 release    : 1
 source     :
-    - https://github.com/Ryujinx/Ryujinx/archive/refs/tags/1.1.1281.tar.gz : f2b43228d2d59df523c29760aba42e9b6553be477e27899b0eb85b0cd6b8173a
+    - https://github.com/Ryujinx/Ryujinx/archive/refs/tags/1.1.1340.tar.gz : ab76a435cda682d9c2b9ffd3aa11b7b898be6a5d0cb456b48b2f2215d0eac109
 license    : MIT
 component  : games.emulator
 homepage   : https://github.com/Ryujinx/Ryujinx

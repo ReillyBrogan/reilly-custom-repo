@@ -1,6 +1,6 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Reilly Brogan <reilly@reillybrogan.com>
-Date: Sat, 13 Apr 2024 16:15:07 -0500
+Date: Thu, 6 Jun 2024 23:54:53 -0500
 Subject: [PATCH] Revert "nuget: bump Microsoft.CodeAnalysis.CSharp from 4.8.0
  to 4.9.2 (#6397)"
 
@@ -10,7 +10,7 @@ This reverts commit d26ef2eec309a7a7b30b103c245044d1cdc08add.
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/Directory.Packages.props b/Directory.Packages.props
-index c3af18ce..d9c4904e 100644
+index 6919a248..9c90ce1f 100644
 --- a/Directory.Packages.props
 +++ b/Directory.Packages.props
 @@ -19,7 +19,7 @@
@@ -19,6 +19,6 @@ index c3af18ce..d9c4904e 100644
      <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
 -    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.9.2" />
 +    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
-     <PackageVersion Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.5.1" />
+     <PackageVersion Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.6.2" />
      <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
-     <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.0" />
+     <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1" />
