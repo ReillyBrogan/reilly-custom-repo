@@ -1,8 +1,8 @@
 name       : vesktop
-version    : 1.5.2
+version    : 1.5.3
 release    : 1
 source     :
-    - https://github.com/Vencord/Vesktop/releases/download/v1.5.2/vesktop-1.5.2.tar.gz : a49595d362fa21b0f4525fc25d4484d1ee494a6f3fbedbc06f8c29cb400367db
+    - https://github.com/Vencord/Vesktop/releases/download/v1.5.3/vesktop-1.5.3.tar.gz : 5ab37924e87bd7beb19ce2cc6599c280be765f1577573f014918fb60b5a7cd86
 license    : Distributable
 component  : network.im
 homepage   : https://github.com/Vencord/Vesktop
