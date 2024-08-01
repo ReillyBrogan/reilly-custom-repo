@@ -460,11 +460,14 @@ libc.so.6:getpriority
 libc.so.6:getpwnam_r
 libc.so.6:getpwuid
 libc.so.6:getpwuid_r
+libc.so.6:getrandom
 libc.so.6:getresgid
 libc.so.6:getresuid
 libc.so.6:getrlimit
 libc.so.6:getrlimit64
 libc.so.6:getrusage
+libc.so.6:getservbyname
+libc.so.6:getservbyport_r
 libc.so.6:getsid
 libc.so.6:getsockname
 libc.so.6:getsockopt
@@ -568,6 +571,7 @@ libc.so.6:posix_spawnattr_setsigdefault
 libc.so.6:posix_spawnp
 libc.so.6:ppoll
 libc.so.6:prctl
+libc.so.6:preadv
 libc.so.6:preadv64
 libc.so.6:printf
 libc.so.6:process_vm_readv
@@ -580,6 +584,7 @@ libc.so.6:ptrace
 libc.so.6:ptsname
 libc.so.6:putchar
 libc.so.6:puts
+libc.so.6:pwritev
 libc.so.6:pwritev64
 libc.so.6:qsort
 libc.so.6:rand
@@ -648,6 +653,7 @@ libc.so.6:sleep
 libc.so.6:snprintf
 libc.so.6:socket
 libc.so.6:socketpair
+libc.so.6:splice
 libc.so.6:sprintf
 libc.so.6:srand
 libc.so.6:srand48
@@ -890,6 +896,8 @@ libgbm.so.1:gbm_device_get_fd
 libgbm.so.1:gbm_device_is_format_supported
 libgcc_s.so.1:_Unwind_Backtrace
 libgcc_s.so.1:_Unwind_DeleteException
+libgcc_s.so.1:_Unwind_FindEnclosingFunction
+libgcc_s.so.1:_Unwind_GetCFA
 libgcc_s.so.1:_Unwind_GetDataRelBase
 libgcc_s.so.1:_Unwind_GetIP
 libgcc_s.so.1:_Unwind_GetIPInfo
@@ -1551,6 +1559,8 @@ libxcb.so.1:xcb_generate_id
 libxcb.so.1:xcb_get_file_descriptor
 libxcb.so.1:xcb_get_geometry
 libxcb.so.1:xcb_get_geometry_reply
+libxcb.so.1:xcb_get_input_focus
+libxcb.so.1:xcb_get_input_focus_reply
 libxcb.so.1:xcb_get_setup
 libxcb.so.1:xcb_parse_display
 libxcb.so.1:xcb_poll_for_event
