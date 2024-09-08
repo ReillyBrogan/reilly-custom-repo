@@ -443,6 +443,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/merge-conflict/package.nls.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/dist/extension.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/dist/extension.js.LICENSE.txt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/media/auth.css</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/media/favicon.ico</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/microsoft-authentication/media/icon.png</Path>
@@ -876,6 +877,8 @@
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/spdlog/build/Release/spdlog.node</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/sqlite3/build/Release/vscode-sqlite3.node</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/wasm/tree-sitter-typescript.wasm</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/wasm/tree-sitter.wasm</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/@vscode/vsce-sign/bin/vsce-sign</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/kerberos/build/Release/kerberos.node</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/kerberos/build/Release/obj.target/kerberos.node</Path>
@@ -906,15 +909,18 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/base/parts/sandbox/electron-sandbox/preload.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/base/worker/workerMain.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-main/main.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.esm.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.css</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.esm.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/node/cli.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/node/cliProcessMain.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/editor/common/languages/highlights/typescript.scm</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/loader.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3</Path>
@@ -959,6 +965,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/extensions/browser/media/theme-icon.png</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/externalTerminal/node/TerminalHelper.scpt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/externalTerminal/node/iTermHelper.scpt</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.esm.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.css</Path>
@@ -1003,6 +1010,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/terminal.svg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/workspaceTrust.svg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/services/extensionManagement/common/media/defaultIcon.png</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.esm.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionSimpleWorker.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/services/search/worker/localFileSearch.js</Path>
@@ -1028,8 +1036,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-08-01</Date>
-            <Version>1.92.0</Version>
+            <Date>2024-09-08</Date>
+            <Version>1.93.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
