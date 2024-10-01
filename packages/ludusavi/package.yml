@@ -1,8 +1,8 @@
 name       : ludusavi
-version    : 0.22.0
+version    : 0.25.0
 release    : 1
 source     :
-    - https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.22.0.tar.gz : 6b7fe4010460653a8e47da45cbe8d531db857d17f87191801e259e4e4b8fc0eb
+    - https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.25.0.tar.gz : 26fbbed72a8314fa3c25b3cd4434988952c78cd21e22fb0dd041ca1a9cfed988
 homepage   : https://github.com/mtkennerly/ludusavi
 license    : MIT
 component  : system.utils
@@ -11,10 +11,8 @@ description: |
     Backup tool for PC game saves
 networking : yes
 builddeps  :
-    - cargo
+    - rust
 setup      : |
-    %patch -p1 -i $pkgfiles/0001-Fix-Wayland-appId.patch
-
     cargo fetch --locked
 build      : |
     cargo build --frozen --release \
