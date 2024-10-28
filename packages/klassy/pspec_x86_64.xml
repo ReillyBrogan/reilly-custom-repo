@@ -23,9 +23,9 @@
         <Files>
             <Path fileType="executable">/usr/bin/klassy-settings</Path>
             <Path fileType="library">/usr/lib64/libklassycommon5.so.6</Path>
-            <Path fileType="library">/usr/lib64/libklassycommon5.so.6.1.breeze6.0.3</Path>
+            <Path fileType="library">/usr/lib64/libklassycommon5.so.6.2.breeze6.2.1</Path>
             <Path fileType="library">/usr/lib64/libklassycommon6.so.6</Path>
-            <Path fileType="library">/usr/lib64/libklassycommon6.so.6.1.breeze6.0.3</Path>
+            <Path fileType="library">/usr/lib64/libklassycommon6.so.6.2.breeze6.2.1</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/styles/klassy5.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kstyle_config/klassystyleconfig.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/org.kde.kdecoration2.kcm/kcm_klassydecoration.so</Path>
@@ -64,7 +64,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-0/tab-close.svg</Path>
@@ -92,7 +91,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-1/tab-close.svg</Path>
@@ -120,7 +118,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-2/tab-close.svg</Path>
@@ -148,7 +145,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-3/tab-close.svg</Path>
@@ -176,7 +172,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-4/tab-close.svg</Path>
@@ -204,7 +199,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-5/tab-close.svg</Path>
@@ -232,7 +226,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-6/tab-close.svg</Path>
@@ -260,7 +253,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-7/tab-close.svg</Path>
@@ -288,7 +280,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/16-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/16-8/tab-close.svg</Path>
@@ -316,7 +307,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-0/tab-close.svg</Path>
@@ -344,7 +334,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-1/tab-close.svg</Path>
@@ -372,7 +361,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-2/tab-close.svg</Path>
@@ -400,7 +388,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-3/tab-close.svg</Path>
@@ -428,7 +415,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-4/tab-close.svg</Path>
@@ -456,7 +442,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-5/tab-close.svg</Path>
@@ -484,7 +469,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-6/tab-close.svg</Path>
@@ -512,7 +496,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-7/tab-close.svg</Path>
@@ -540,7 +523,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/18-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/18-8/tab-close.svg</Path>
@@ -568,7 +550,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-0/tab-close.svg</Path>
@@ -596,7 +577,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-1/tab-close.svg</Path>
@@ -624,7 +604,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-2/tab-close.svg</Path>
@@ -652,7 +631,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-3/tab-close.svg</Path>
@@ -680,7 +658,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-4/tab-close.svg</Path>
@@ -708,7 +685,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-5/tab-close.svg</Path>
@@ -736,7 +712,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-6/tab-close.svg</Path>
@@ -764,7 +739,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-7/tab-close.svg</Path>
@@ -792,7 +766,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/20-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/20-8/tab-close.svg</Path>
@@ -820,7 +793,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-0/tab-close.svg</Path>
@@ -848,7 +820,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-1/tab-close.svg</Path>
@@ -876,7 +847,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-2/tab-close.svg</Path>
@@ -904,7 +874,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-3/tab-close.svg</Path>
@@ -932,7 +901,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-4/tab-close.svg</Path>
@@ -960,7 +928,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-5/tab-close.svg</Path>
@@ -988,7 +955,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-6/tab-close.svg</Path>
@@ -1016,7 +982,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-7/tab-close.svg</Path>
@@ -1044,7 +1009,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/22-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/22-8/tab-close.svg</Path>
@@ -1072,7 +1036,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-0/tab-close.svg</Path>
@@ -1100,7 +1063,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-1/tab-close.svg</Path>
@@ -1128,7 +1090,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-2/tab-close.svg</Path>
@@ -1156,7 +1117,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-3/tab-close.svg</Path>
@@ -1184,7 +1144,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-4/tab-close.svg</Path>
@@ -1212,7 +1171,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-5/tab-close.svg</Path>
@@ -1240,7 +1198,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-6/tab-close.svg</Path>
@@ -1268,7 +1225,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-7/tab-close.svg</Path>
@@ -1296,7 +1252,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/24-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/24-8/tab-close.svg</Path>
@@ -1324,7 +1279,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-0/tab-close.svg</Path>
@@ -1352,7 +1306,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-1/tab-close.svg</Path>
@@ -1380,7 +1333,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-2/tab-close.svg</Path>
@@ -1408,7 +1360,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-3/tab-close.svg</Path>
@@ -1436,7 +1387,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-4/tab-close.svg</Path>
@@ -1464,7 +1414,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-5/tab-close.svg</Path>
@@ -1492,7 +1441,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-6/tab-close.svg</Path>
@@ -1520,7 +1468,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-7/tab-close.svg</Path>
@@ -1548,7 +1495,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/32-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/32-8/tab-close.svg</Path>
@@ -1576,7 +1522,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-0/tab-close.svg</Path>
@@ -1604,7 +1549,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-1/tab-close.svg</Path>
@@ -1632,7 +1576,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-2/tab-close.svg</Path>
@@ -1660,7 +1603,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-3/tab-close.svg</Path>
@@ -1688,7 +1630,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-4/tab-close.svg</Path>
@@ -1716,7 +1657,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-5/tab-close.svg</Path>
@@ -1744,7 +1684,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-6/tab-close.svg</Path>
@@ -1772,7 +1711,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-7/tab-close.svg</Path>
@@ -1800,7 +1738,6 @@
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy-dark/48-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy-dark/48-8/tab-close.svg</Path>
@@ -1829,7 +1766,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-0/tab-close.svg</Path>
@@ -1857,7 +1793,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-1/tab-close.svg</Path>
@@ -1885,7 +1820,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-2/tab-close.svg</Path>
@@ -1913,7 +1847,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-3/tab-close.svg</Path>
@@ -1941,7 +1874,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-4/tab-close.svg</Path>
@@ -1969,7 +1901,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-5/tab-close.svg</Path>
@@ -1997,7 +1928,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-6/tab-close.svg</Path>
@@ -2025,7 +1955,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-7/tab-close.svg</Path>
@@ -2053,7 +1982,6 @@
             <Path fileType="data">/usr/share/icons/klassy/16-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/16-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/16-8/tab-close.svg</Path>
@@ -2081,7 +2009,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-0/tab-close.svg</Path>
@@ -2109,7 +2036,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-1/tab-close.svg</Path>
@@ -2137,7 +2063,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-2/tab-close.svg</Path>
@@ -2165,7 +2090,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-3/tab-close.svg</Path>
@@ -2193,7 +2117,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-4/tab-close.svg</Path>
@@ -2221,7 +2144,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-5/tab-close.svg</Path>
@@ -2249,7 +2171,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-6/tab-close.svg</Path>
@@ -2277,7 +2198,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-7/tab-close.svg</Path>
@@ -2305,7 +2225,6 @@
             <Path fileType="data">/usr/share/icons/klassy/18-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/18-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/18-8/tab-close.svg</Path>
@@ -2333,7 +2252,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-0/tab-close.svg</Path>
@@ -2361,7 +2279,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-1/tab-close.svg</Path>
@@ -2389,7 +2306,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-2/tab-close.svg</Path>
@@ -2417,7 +2333,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-3/tab-close.svg</Path>
@@ -2445,7 +2360,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-4/tab-close.svg</Path>
@@ -2473,7 +2387,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-5/tab-close.svg</Path>
@@ -2501,7 +2414,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-6/tab-close.svg</Path>
@@ -2529,7 +2441,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-7/tab-close.svg</Path>
@@ -2557,7 +2468,6 @@
             <Path fileType="data">/usr/share/icons/klassy/20-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/20-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/20-8/tab-close.svg</Path>
@@ -2585,7 +2495,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-0/tab-close.svg</Path>
@@ -2613,7 +2522,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-1/tab-close.svg</Path>
@@ -2641,7 +2549,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-2/tab-close.svg</Path>
@@ -2669,7 +2576,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-3/tab-close.svg</Path>
@@ -2697,7 +2603,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-4/tab-close.svg</Path>
@@ -2725,7 +2630,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-5/tab-close.svg</Path>
@@ -2753,7 +2657,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-6/tab-close.svg</Path>
@@ -2781,7 +2684,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-7/tab-close.svg</Path>
@@ -2809,7 +2711,6 @@
             <Path fileType="data">/usr/share/icons/klassy/22-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/22-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/22-8/tab-close.svg</Path>
@@ -2837,7 +2738,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-0/tab-close.svg</Path>
@@ -2865,7 +2765,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-1/tab-close.svg</Path>
@@ -2893,7 +2792,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-2/tab-close.svg</Path>
@@ -2921,7 +2819,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-3/tab-close.svg</Path>
@@ -2949,7 +2846,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-4/tab-close.svg</Path>
@@ -2977,7 +2873,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-5/tab-close.svg</Path>
@@ -3005,7 +2900,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-6/tab-close.svg</Path>
@@ -3033,7 +2927,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-7/tab-close.svg</Path>
@@ -3061,7 +2954,6 @@
             <Path fileType="data">/usr/share/icons/klassy/24-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/24-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/24-8/tab-close.svg</Path>
@@ -3089,7 +2981,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-0/tab-close.svg</Path>
@@ -3117,7 +3008,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-1/tab-close.svg</Path>
@@ -3145,7 +3035,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-2/tab-close.svg</Path>
@@ -3173,7 +3062,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-3/tab-close.svg</Path>
@@ -3201,7 +3089,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-4/tab-close.svg</Path>
@@ -3229,7 +3116,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-5/tab-close.svg</Path>
@@ -3257,7 +3143,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-6/tab-close.svg</Path>
@@ -3285,7 +3170,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-7/tab-close.svg</Path>
@@ -3313,7 +3197,6 @@
             <Path fileType="data">/usr/share/icons/klassy/32-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/32-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/32-8/tab-close.svg</Path>
@@ -3341,7 +3224,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-0/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-0/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-0/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-0/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-0/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-0/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-0/tab-close.svg</Path>
@@ -3369,7 +3251,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-1/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-1/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-1/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-1/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-1/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-1/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-1/tab-close.svg</Path>
@@ -3397,7 +3278,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-2/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-2/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-2/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-2/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-2/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-2/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-2/tab-close.svg</Path>
@@ -3425,7 +3305,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-3/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-3/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-3/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-3/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-3/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-3/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-3/tab-close.svg</Path>
@@ -3453,7 +3332,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-4/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-4/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-4/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-4/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-4/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-4/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-4/tab-close.svg</Path>
@@ -3481,7 +3359,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-5/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-5/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-5/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-5/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-5/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-5/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-5/tab-close.svg</Path>
@@ -3509,7 +3386,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-6/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-6/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-6/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-6/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-6/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-6/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-6/tab-close.svg</Path>
@@ -3537,7 +3413,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-7/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-7/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-7/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-7/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-7/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-7/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-7/tab-close.svg</Path>
@@ -3565,7 +3440,6 @@
             <Path fileType="data">/usr/share/icons/klassy/48-8/geany-close-all.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-8/gtk-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-8/gtk-no.svg</Path>
-            <Path fileType="data">/usr/share/icons/klassy/48-8/help-contextual-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-8/kontes-close.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-8/tab-close-other.svg</Path>
             <Path fileType="data">/usr/share/icons/klassy/48-8/tab-close.svg</Path>
@@ -3704,8 +3578,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-06-26</Date>
-            <Version>6.1</Version>
+            <Date>2024-10-28</Date>
+            <Version>6.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>

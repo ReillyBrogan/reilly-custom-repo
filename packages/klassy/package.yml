@@ -1,8 +1,8 @@
 name       : klassy
-version    : 6.1
+version    : 6.2
 release    : 1
 source     :
-    - https://github.com/paulmcauley/klassy/archive/refs/tags/6.1.breeze6.0.3.tar.gz : 6fc9f532116cb448857fb72898df8aafd40c507536ab1828f8242bc3504f68e8
+    - https://github.com/paulmcauley/klassy/archive/refs/tags/6.2.breeze6.2.1.tar.gz : 658c183b182fd86316e3a055f51d31e77a77a283be641908b6d4469a5ce9d035
 homepage   : https://github.com/paulmcauley/klassy
 license    :
     - BSD-3-Clause
@@ -13,6 +13,8 @@ component  : desktop.theme
 summary    : Fork of the Breeze style
 description: Fork of the Breeze style
 builddeps  :
+    - pkgconfig(KF6GuiAddons)
+    - pkgconfig(KF6WindowSystem)
     - pkgconfig(Qt5Quick)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(Qt6Qml)
@@ -22,10 +24,8 @@ builddeps  :
     - kdecoration-devel
     - kf6-frameworkintegration-devel
     - kf6-kcmutils-devel
-    - kf6-kguiaddons-devel
     - kf6-ki18n-devel
     - kf6-kirigami-devel
-    - kf6-kwindowsystem-devel
     - kguiaddons-devel
     - ki18n-devel
     - kiconthemes-devel
