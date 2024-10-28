@@ -6183,6 +6183,7 @@ code:ares_send_dnsrec
 code:ares_set_local_dev
 code:ares_set_local_ip4
 code:ares_set_local_ip6
+code:ares_set_server_state_callback
 code:ares_set_servers
 code:ares_set_servers_csv
 code:ares_set_servers_ports

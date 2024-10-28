@@ -1,8 +1,8 @@
 name       : vscode-bin
-version    : 1.93.0
+version    : 1.94.2
 release    : 1
 source     :
-    - https://update.code.visualstudio.com/1.93.0/linux-x64/stable : db8044ccb0e0e502ee0781b538607e96a11a1fe5f2f9650b6ea69e3c91c4963e
+    - https://update.code.visualstudio.com/1.94.2/linux-x64/stable : 364b59a30c569edf7a5dae18c72bfea0c9b01c6ca5608c45ae9c2cff2d178570
 homepage   : https://code.visualstudio.com/
 license    :
     - GPL-3.0-or-later # Icon (from Papirus)
@@ -27,7 +27,7 @@ builddeps  :
     - pkgconfig(xshmfence)
     - pkgconfig(xtst)
     - jq
-    - yarn
+    - nodejs
     - yq
 rundeps    :
     - git
