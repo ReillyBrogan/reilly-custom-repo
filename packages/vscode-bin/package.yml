@@ -1,8 +1,8 @@
 name       : vscode-bin
-version    : 1.94.2
+version    : 1.95.0
 release    : 1
 source     :
-    - https://update.code.visualstudio.com/1.94.2/linux-x64/stable : 364b59a30c569edf7a5dae18c72bfea0c9b01c6ca5608c45ae9c2cff2d178570
+    - https://update.code.visualstudio.com/1.95.0/linux-x64/stable : a554f06f714971e4d3558b16eedbcd22aa6da6c004e64fb6a42efc6b8a9e8e89
 homepage   : https://code.visualstudio.com/
 license    :
     - GPL-3.0-or-later # Icon (from Papirus)
@@ -51,12 +51,6 @@ install    : |
     install -dm00755 $installdir/usr/share/zsh/site-functions
     ln -s ../../vscode/resources/completions/bash/code $installdir/usr/share/bash-completion/completions/code
     ln -s ../../vscode/resources/completions/zsh/_code $installdir/usr/share/zsh/site-functions/_code
-
-    # Fix Wayland/Xorg window associations
-    package_json=$installdir/$vsdir/resources/app/package.json
-    tmp=$(mktemp)
-    jq ".desktopName = \"code.desktop\"" $package_json > "$tmp" && mv "$tmp" $package_json
-    chmod 644 $package_json
 
     # Appdata/MIME
     install -Dm00644 $pkgfiles/code.appdata.xml $installdir/usr/share/metainfo/code.appdata.xml
