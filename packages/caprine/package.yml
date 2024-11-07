@@ -1,0 +1,31 @@
+name       : caprine
+version    : 2.60.1
+release    : 1
+source     :
+    - https://github.com/sindresorhus/caprine/releases/download/v2.60.1/caprine_2.60.1_amd64.deb : 93c0c5cf457662c406186e5751bc6e11215e38f3cd355918051a20cbf13d4974
+license    : Distributable
+component  : network.im
+homepage   : https://github.com/sindresorhus/caprine
+summary    :  Elegant Facebook Messenger desktop app 
+description: |
+     Elegant Facebook Messenger desktop app 
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gbm)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(xshmfence)
+setup      : |
+    mkdir tmp && cd tmp
+    tar xf ../data.tar.*
+install    : |
+    cd tmp
+
+    install -Dm00644 $pkgfiles/Caprine.desktop $installdir/usr/share/applications/Caprine.desktop
+
+    # Binary
+    install -Dm00755 $pkgfiles/caprine.sh $installdir/usr/bin/caprine
+
+    cp -ra opt/Caprine $installdir/usr/share/
+
+    # Assets
+    cp -ra usr/share/icons $installdir/usr/share/

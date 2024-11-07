@@ -1,0 +1,123 @@
+<PISI>
+    <Source>
+        <Name>caprine</Name>
+        <Homepage>https://github.com/sindresorhus/caprine</Homepage>
+        <Packager>
+            <Name>Reilly Brogan</Name>
+            <Email>solus@reillybrogan.com</Email>
+        </Packager>
+        <License>Distributable</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">Elegant Facebook Messenger desktop app</Summary>
+        <Description xml:lang="en">Elegant Facebook Messenger desktop app 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://sources.getsol.us/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>caprine</Name>
+        <Summary xml:lang="en">Elegant Facebook Messenger desktop app</Summary>
+        <Description xml:lang="en">Elegant Facebook Messenger desktop app 
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/caprine</Path>
+            <Path fileType="data">/usr/share/Caprine/LICENSE.electron.txt</Path>
+            <Path fileType="data">/usr/share/Caprine/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/Caprine/caprine</Path>
+            <Path fileType="data">/usr/share/Caprine/chrome-sandbox</Path>
+            <Path fileType="data">/usr/share/Caprine/chrome_100_percent.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/chrome_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/chrome_crashpad_handler</Path>
+            <Path fileType="data">/usr/share/Caprine/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/Caprine/libEGL.so</Path>
+            <Path fileType="data">/usr/share/Caprine/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/Caprine/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/Caprine/libvk_swiftshader.so</Path>
+            <Path fileType="data">/usr/share/Caprine/libvulkan.so.1</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/af.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/ur.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/resources.pak</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app-update.yml</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar.unpacked/node_modules/@sindresorhus/do-not-disturb/do-not-disturb</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar.unpacked/node_modules/@sindresorhus/do-not-disturb/index.js</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar.unpacked/node_modules/@sindresorhus/do-not-disturb/license</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar.unpacked/node_modules/@sindresorhus/do-not-disturb/package.json</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/app.asar.unpacked/static/Icon.png</Path>
+            <Path fileType="data">/usr/share/Caprine/resources/package-type</Path>
+            <Path fileType="data">/usr/share/Caprine/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/Caprine/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/usr/share/Caprine/vk_swiftshader_icd.json</Path>
+            <Path fileType="data">/usr/share/applications/Caprine.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/caprine.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/caprine.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2024-11-07</Date>
+            <Version>2.60.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Reilly Brogan</Name>
+            <Email>solus@reillybrogan.com</Email>
+        </Update>
+    </History>
+</PISI>
