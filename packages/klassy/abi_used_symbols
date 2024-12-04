@@ -1079,7 +1079,7 @@ libQt6Core.so.6:_ZN5QFileD1Ev
 libQt6Core.so.6:_ZN5QSize9transposeEv
 libQt6Core.so.6:_ZN5QUuid10createUuidEv
 libQt6Core.so.6:_ZN6QDebugD1Ev
-libQt6Core.so.6:_ZN6QTimer14singleShotImplEiN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE
+libQt6Core.so.6:_ZN6QTimer14singleShotImplENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE
 libQt6Core.so.6:_ZN7QLocaleC1Ev
 libQt6Core.so.6:_ZN7QLocaleD1Ev
 libQt6Core.so.6:_ZN7QLocaleaSERKS_
@@ -1143,6 +1143,7 @@ libQt6Core.so.6:_ZN9QMetaType10canConvertES_S_
 libQt6Core.so.6:_ZN9QMetaType14registerHelperEPKN9QtPrivate18QMetaTypeInterfaceE
 libQt6Core.so.6:_ZN9QMetaType25registerNormalizedTypedefERK10QByteArrayS_
 libQt6Core.so.6:_ZN9QMetaType7convertES_PKvS_Pv
+libQt6Core.so.6:_ZN9QtPrivate11lastIndexOfE11QStringViewxDsN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZN9QtPrivate12equalStringsE11QStringView13QLatin1String
 libQt6Core.so.6:_ZN9QtPrivate12equalStringsE11QStringViewS0_
 libQt6Core.so.6:_ZN9QtPrivate14compareStringsE11QStringViewS0_N2Qt15CaseSensitivityE
@@ -1160,6 +1161,7 @@ libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIbE8metaTypeE
 libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIdE8metaTypeE
 libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIfE8metaTypeE
 libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIiE8metaTypeE
+libQt6Core.so.6:_ZN9QtPrivate8qustrchrE11QStringViewDs
 libQt6Core.so.6:_ZNK10QJsonArray4sizeEv
 libQt6Core.so.6:_ZNK10QJsonArray7isEmptyEv
 libQt6Core.so.6:_ZNK10QJsonArray8containsERK10QJsonValue
@@ -1228,13 +1230,11 @@ libQt6Core.so.6:_ZNK7QObject10metaObjectEv
 libQt6Core.so.6:_ZNK7QObject10objectNameEv
 libQt6Core.so.6:_ZNK7QObject6senderEv
 libQt6Core.so.6:_ZNK7QObject8propertyEPKc
-libQt6Core.so.6:_ZNK7QString11lastIndexOfE5QCharxN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZNK7QString3argE13QLatin1Stringi5QChar
 libQt6Core.so.6:_ZNK7QString3argERKS_i5QChar
 libQt6Core.so.6:_ZNK7QString3argExii5QChar
 libQt6Core.so.6:_ZNK7QString5splitE5QChar6QFlagsIN2Qt18SplitBehaviorFlagsEENS2_15CaseSensitivityE
 libQt6Core.so.6:_ZNK7QString7compareE13QLatin1StringN2Qt15CaseSensitivityE
-libQt6Core.so.6:_ZNK7QString7indexOfE5QCharxN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZNK8QVariant5toIntEPb
 libQt6Core.so.6:_ZNK8QVariant6equalsERKS_
 libQt6Core.so.6:_ZNK8QVariant6toBoolEv
@@ -1462,6 +1462,7 @@ libQt6Gui.so.6:_ZNK12QFontMetrics10elidedTextERK7QStringN2Qt13TextElideModeEii
 libQt6Gui.so.6:_ZNK12QFontMetrics12boundingRectERK5QRectiRK7QStringiPi
 libQt6Gui.so.6:_ZNK12QFontMetrics4sizeEiRK7QStringiPi
 libQt6Gui.so.6:_ZNK12QFontMetrics6heightEv
+libQt6Gui.so.6:_ZNK12QPaintDevice16devicePixelRatioEv
 libQt6Gui.so.6:_ZNK12QPainterPath10subtractedERKS_
 libQt6Gui.so.6:_ZNK12QPainterPath11intersectedERKS_
 libQt6Gui.so.6:_ZNK12QPainterPath12boundingRectEv

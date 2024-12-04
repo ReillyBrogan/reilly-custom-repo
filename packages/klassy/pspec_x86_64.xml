@@ -3578,7 +3578,7 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-10-28</Date>
+            <Date>2024-12-04</Date>
             <Version>6.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
