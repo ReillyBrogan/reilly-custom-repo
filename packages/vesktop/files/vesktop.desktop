@@ -8,3 +8,4 @@ StartupWMClass=Vesktop
 GenericName=Internet Messenger
 Categories=Network;
 Keywords=discord;vencord;electron;chat;
+MimeType=x-scheme-handler/discord

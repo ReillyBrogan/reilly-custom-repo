@@ -1,8 +1,8 @@
 name       : vscode-bin
-version    : 1.96.0
+version    : 1.99.1
 release    : 1
 source     :
-    - https://update.code.visualstudio.com/1.96.0/linux-x64/stable : f35335d59b7c35f290bcb809e7a323cff217b66e6a40932b7697ddcc3db8761d
+    - https://update.code.visualstudio.com/1.99.1/linux-x64/stable : d521421b5e5ac9229e22224df95123b4047e7ca067c596d2ffc3ec2f4ac24b15
 homepage   : https://code.visualstudio.com/
 license    :
     - GPL-3.0-or-later # Icon (from Papirus)
