@@ -1,8 +1,8 @@
 name       : ludusavi
-version    : 0.25.0
+version    : 0.29.0
 release    : 1
 source     :
-    - https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.25.0.tar.gz : 26fbbed72a8314fa3c25b3cd4434988952c78cd21e22fb0dd041ca1a9cfed988
+    - https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.29.0.tar.gz : dacff74da8ee67d30984df4adcff82b5ad625d3b001d5b4b68b2bbcc2553edcb
 homepage   : https://github.com/mtkennerly/ludusavi
 license    : MIT
 component  : system.utils
@@ -11,15 +11,26 @@ description: |
     Backup tool for PC game saves
 networking : yes
 builddeps  :
+    - pkgconfig(gdk-3.0)
+    - pkgconfig(libzstd)
+    - pkgconfig(pango)
+    - pkgconfig(sqlite3)
     - rust
+environment: |
+    # Force use of system libs
+    export ZSTD_SYS_USE_PKG_CONFIG=1
 setup      : |
+    %patch -p1 -i $pkgfiles/0001-Unbundle-deps.patch
+
     cargo fetch --locked
 build      : |
     cargo build --frozen --release \
                 --all-features
 install    : |
     install -Dm00755 target/release/ludusavi -t $installdir/usr/bin/
-    install -Dm644 assets/com.github.mtkennerly.ludusavi.metainfo.xml -t $installdir/usr/share/metainfo/
-    install -Dm644 assets/icon.png $installdir/usr/share/icons/hicolor/64x64/apps/ludusavi.png
-    install -Dm644 assets/icon.svg $installdir/usr/share/icons/hicolor/scalable/apps/ludusavi.svg
-    install -Dm644 assets/ludusavi.desktop -t $installdir/usr/share/applications/
+
+    install -Dm644 assets/linux/com.mtkennerly.ludusavi.desktop -t $installdir/usr/share/applications/
+    install -Dm644 assets/linux/com.mtkennerly.ludusavi.metainfo.xml -t $installdir/usr/share/metainfo/
+
+    install -Dm644 assets/icon.png $installdir/usr/share/icons/hicolor/64x64/apps/com.mtkennerly.ludusavi.png
+    install -Dm644 assets/icon.svg $installdir/usr/share/icons/hicolor/scalable/apps/com.mtkennerly.ludusavi.svg

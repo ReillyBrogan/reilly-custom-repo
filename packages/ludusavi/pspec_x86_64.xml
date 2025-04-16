@@ -21,16 +21,16 @@
         <PartOf>system.utils</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/ludusavi</Path>
-            <Path fileType="data">/usr/share/applications/ludusavi.desktop</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/ludusavi.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/ludusavi.svg</Path>
-            <Path fileType="data">/usr/share/metainfo/com.github.mtkennerly.ludusavi.metainfo.xml</Path>
+            <Path fileType="data">/usr/share/applications/com.mtkennerly.ludusavi.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/com.mtkennerly.ludusavi.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/com.mtkennerly.ludusavi.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/com.mtkennerly.ludusavi.metainfo.xml</Path>
         </Files>
     </Package>
     <History>
         <Update release="1">
-            <Date>2024-10-01</Date>
-            <Version>0.25.0</Version>
+            <Date>2025-04-16</Date>
+            <Version>0.29.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
