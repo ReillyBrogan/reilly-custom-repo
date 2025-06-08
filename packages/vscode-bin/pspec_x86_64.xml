@@ -531,8 +531,10 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/ui/basic-wat.tmLanguage.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/w32appcontainertokens-LVKSWXR7.node</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/watchdog.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-arm64-msvc-4ZJZ3U55.node</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-x64-msvc-VCQE7GJP.node</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/telemetry.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml</Path>
@@ -706,6 +708,12 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/powershell/package.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/powershell/package.nls.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/powershell/syntaxes/powershell.tmLanguage.json</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/language-configuration.json</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/package.json</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/package.nls.json</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/snippets/instructions.code-snippets</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/snippets/prompt.code-snippets</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/extensions/prompt-basics/syntaxes/prompt.tmLanguage.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/pug/language-configuration.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/pug/package.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/pug/package.nls.json</Path>
@@ -786,7 +794,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/.gitignore</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/ThirdPartyNotices.txt</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/cgmanifest.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/dist/fig/README.md</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/dist/media/icon.png</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js</Path>
@@ -910,13 +917,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/vsda/build/Release/vsda.node</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules.asar.unpacked/vsda/rust/web/vsda_bg.wasm</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/LICENSE</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.cjs</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.cjs.map</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.d.cts</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.umd.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/package.json</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/LICENSE.TXT</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/NOTICE</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/PRIVACY</Path>
@@ -1325,20 +1325,6 @@
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/end-of-stream/LICENSE</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/end-of-stream/index.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/end-of-stream/package.json</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/LICENSE</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.cjs</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.cjs.map</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.d.cts</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.esm.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stats.html</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.cjs</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.cjs.map</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.d.cts</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.esm.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.js</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/package.json</Path>
-            <Path fileType="data">/usr/share/vscode/resources/app/node_modules/eventsource-parser/stream.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/expand-template/LICENSE</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/expand-template/index.js</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/node_modules/expand-template/package.json</Path>
@@ -2142,6 +2128,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/nextEditSuggestion.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/requestSent.mp3</Path>
@@ -2154,6 +2141,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalCommandSucceeded.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStarted.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3</Path>
@@ -2190,6 +2178,7 @@
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index-no-csp.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js</Path>
+            <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/ai-powered-suggestions.svg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/commandPalette.svg</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark-hc.png</Path>
             <Path fileType="data">/usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark.png</Path>
@@ -2241,8 +2230,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2025-04-08</Date>
-            <Version>1.99.1</Version>
+            <Date>2025-06-08</Date>
+            <Version>1.100.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
             <Email>solus@reillybrogan.com</Email>
