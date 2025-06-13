@@ -598,6 +598,7 @@ libc.so.6:readdir
 libc.so.6:readdir64
 libc.so.6:readdir64_r
 libc.so.6:readlink
+libc.so.6:readlinkat
 libc.so.6:readv
 libc.so.6:realloc
 libc.so.6:realpath
@@ -1152,6 +1153,7 @@ libm.so.6:cos
 libm.so.6:cosf
 libm.so.6:cosh
 libm.so.6:coshf
+libm.so.6:erf
 libm.so.6:erfcf
 libm.so.6:erff
 libm.so.6:exp
